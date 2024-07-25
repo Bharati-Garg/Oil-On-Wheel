@@ -1,0 +1,64 @@
+@media(max-width:1100px) {
+    .vertical-line {
+    display: none;
+}
+
+/* .mape .map1 {
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+.mape .circle1 {
+ display: none;
+}
+
+.mape .car1 {
+  display: none;
+}
+
+.mape .car2 {
+  display: none;
+}
+
+/* .mape .map2 {
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+.mape .circle2 {
+  display: none;
+}
+
+.mape .car3 {
+ display: none;
+}
+
+.mape .car4 {
+ display: none;
+}
+ 
+.vertical-line1 {
+  display: none;
+}
+}
+
+
+@media(max-width:768px) {
+    
+}
+
+
+
+@media(max-width:576px) {
+    
+}
+
+
+@media(max-width:400px) {
+    
+}
+
+
+@media(max-width:300px) {
+    
+}

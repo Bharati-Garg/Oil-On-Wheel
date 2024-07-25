@@ -1,0 +1,233 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange !important;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
+
+/* Banner Section */
+.banner-text {
+  margin-top: 80px;
+}
+.banner h1 {
+  font-family: "Poppins", sans-serif;
+}
+.banner .img1 {
+  width: 60%;
+  height: 30%;
+}
+.banner .img2 {
+  width: 100%;
+  margin-top: 40px;
+}
+/* Map Section */
+.map a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+.map img {
+  width: 100%;
+}
+.vertical-line {
+  height: 400px;
+}
+
+.mape .map1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mape .circle1 {
+  width: 20%;
+  position: absolute;
+  top: 1000px;
+  left: 170px;
+}
+
+.mape .car1 {
+  width: 5%;
+  position: absolute;
+  top: 1180px;
+  left: 150px;
+}
+
+.mape .car2 {
+  width: 9%;
+  position: absolute;
+  top: 1100px;
+  left: 370px;
+}
+
+.mape .map2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mape .circle2 {
+  width: 20%;
+  position: absolute;
+  top: 1030px;
+  left: 830px;
+}
+
+.mape .car3 {
+  width: 5%;
+  position: absolute;
+  top: 1100px;
+  left: 790px;
+}
+
+.mape .car4 {
+  width: 9%;
+  position: absolute;
+  top: 1180px;
+  left: 1000px;
+}
+
+/* Car Section */
+.petro p {
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  width: 35%;
+}
+
+.petro-car .car {
+  position: relative;
+}
+.petro-car .car .imgtext {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Container Section */
+.dram img {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.dram button {
+  background: #89beb2;
+}
+.vertical-line1 {
+  height: 500px;
+}
+
+/* Double Box Section */
+.box {
+  background-color: #89beb2;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer Section */
+#contact {
+  background-color: #89beb2;
+  width: 100%;
+  height: 60vh;
+}
+
+
+
+
+
+
+ .car::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -150%;
+  z-index: 3;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: webkit-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+}
+
+ /* .car img {
+  transform: scale(1.02);
+  width: 100%;
+  object-fit: cover;
+}  */
+.car::before{
+  animation: effect_shine 1s;
+}
+
+@keyframes effect_shine {
+  100% {
+    left: 200%;
+  }
+}
+
+/* .offers .offer-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+} */
